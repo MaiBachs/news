@@ -1,0 +1,6 @@
+CREATE TABLE service_profiles (
+  id TEXT NOT NULL CHECK (id IN ('CONTENT', 'DESIGN', 'VIDEO', 'TRANSLATION', 'CUSTOMER_CARE', 'BOOKKEEPING', 'CODING', 'MARKET_RESEARCH')),
+  date TEXT NOT NULL,
+  content TEXT NOT NULL CHECK (json_valid(content)),
+  PRIMARY KEY (id, date)
+) STRICT;

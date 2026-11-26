@@ -1,0 +1,51 @@
+{
+  "name": "radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others --names api,web npm:dev:server npm:dev:web",
+    "dev:server": "node --watch --env-file-if-exists=.env --import tsx server/src/index.ts",
+    "dev:web": "vite",
+    "build:server": "tsc -p tsconfig.server.json",
+    "check:web": "tsc -p tsconfig.web.json",
+    "build": "npm run build:server && npm run check:web && vite build",
+    "start": "node --env-file-if-exists=.env dist/server/src/index.js",
+    "collect": "node --env-file-if-exists=.env scripts/collect-feeds.mjs",
+    "collect:youtube": "node --env-file-if-exists=.env scripts/collect-youtube.mjs",
+    "db:maintenance": "node --env-file-if-exists=.env scripts/db-maintenance.mjs",
+    "import:bulletin": "node --env-file-if-exists=.env scripts/import-bulletin.mjs",
+    "import:digests": "node --env-file-if-exists=.env scripts/import-digests.mjs",
+    "import:ranking": "node --env-file-if-exists=.env scripts/import-ranking.mjs",
+    "import:library": "node --env-file-if-exists=.env scripts/import-library.mjs",
+    "import:farming": "node --env-file-if-exists=.env scripts/import-farming.mjs",
+    "import:aiot": "node --env-file-if-exists=.env scripts/import-aiot.mjs",
+    "import:services": "node --env-file-if-exists=.env scripts/import-services.mjs",
+    "test": "npm run build:server && node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "entities": "^9.0.0",
+    "express": "^5.2.1",
+    "ipaddr.js": "^2.5.0",
+    "playwright-core": "1.65.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.9.4",
+    "robots-parser": "^3.1.0",
+    "saxes": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}

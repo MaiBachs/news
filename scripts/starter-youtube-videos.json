@@ -1,0 +1,168 @@
+[
+  {
+    "channelUrl": "https://www.youtube.com/@MicroConf",
+    "url": "https://www.youtube.com/watch?v=lESdX9Txgc0",
+    "publishedOn": "2026-02-12",
+    "title": "Tìm đà tăng trưởng cho SaaS theo ngành",
+    "summary": "James Mooring chia sẻ kinh nghiệm xây Astalty, một CRM dành cho thị trường dịch vụ hỗ trợ người khuyết tật ở Úc.",
+    "keyPoints": [
+      "Nhóm dùng công cụ miễn phí như một cách nhận tín hiệu nhu cầu ban đầu.",
+      "Bài nói trình bày một thay đổi về cách định giá và kết quả theo báo cáo của nhà sáng lập.",
+      "Các nhà sáng lập trực tiếp hỗ trợ khách trong giai đoạn đầu để tiếp xúc với vấn đề hằng ngày."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@MicroConf",
+    "url": "https://www.youtube.com/watch?v=W5A0xcy0KXg",
+    "publishedOn": "2026-06-01",
+    "title": "Tiếp thị SaaS khi người đọc ít bấm vào website",
+    "summary": "Amanda Natividad trình bày cách tiếp cận khách hàng ngay trên nơi họ đọc nội dung, trong bối cảnh công cụ tìm kiếm và mạng xã hội đưa ít lượt truy cập về website hơn.",
+    "keyPoints": [
+      "Viết nội dung mà người đọc thấy có ích ngay trên nền tảng đang sử dụng.",
+      "Tác giả đề xuất xây niềm tin qua các tương tác công khai trước khi người đọc ghé website.",
+      "Video trình bày một quy trình năm bước để nhà sáng lập thử cách làm này."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@EspressifSystems",
+    "url": "https://www.youtube.com/watch?v=J8zc8mMNKtc",
+    "publishedOn": "2023-09-15",
+    "title": "ESP-IDF cho người mới · DevCon23",
+    "summary": "Bài nhập môn về bộ công cụ phát triển ESP32. Video đi từ hệ thống build, bộ công cụ biên dịch và nạp chương trình đến các khái niệm firmware.",
+    "keyPoints": [
+      "Phân biệt bước biên dịch chương trình và bước nạp firmware lên thiết bị.",
+      "Làm quen với các thành phần dự án ESP-IDF và những khái niệm như FreeRTOS, ngắt và bộ nhớ.",
+      "Dùng tài liệu và ví dụ có sẵn của ESP-IDF để thực hành trước khi tự viết firmware."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@EspressifSystems",
+    "url": "https://www.youtube.com/watch?v=6qR9nHm4HDQ",
+    "publishedOn": "2026-01-10",
+    "title": "Phát triển firmware ESP32 bằng CLion · DevCon25",
+    "summary": "Bài trình diễn cách làm dự án ESP-IDF trong CLion, từ tạo dự án đến quản lý phiên bản và gỡ lỗi.",
+    "keyPoints": [
+      "Xem quy trình tạo và mở một dự án ESP32 dùng ESP-IDF trong CLion.",
+      "Phần trình diễn có quản lý phiên bản và hỗ trợ hoàn thành mã bằng AI.",
+      "Phần gỡ lỗi cho thấy cách quan sát chương trình trong quá trình phát triển firmware."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ",
+    "url": "https://www.youtube.com/watch?v=7bBDMW_m5vc",
+    "publishedOn": "2024-08-11",
+    "title": "ESP32 tiết kiệm pin ngoài chế độ deep sleep",
+    "summary": "Andreas Spiess giới thiệu các cách giảm điện năng trên ESP32, gồm light sleep, hạ xung nhịp, modem sleep và hibernation.",
+    "keyPoints": [
+      "Deep sleep chỉ là một trong các chế độ có thể dùng để giảm mức tiêu thụ.",
+      "Video xem xét cả việc giảm xung nhịp và điều chỉnh khi nào phần kết nối cần hoạt động.",
+      "Các lựa chọn này đáng đối chiếu khi thiết bị cần phản hồi hoặc giữ kết nối theo chu kỳ."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ",
+    "url": "https://www.youtube.com/watch?v=hMOwbNUpDQA",
+    "publishedOn": "2017-01-19",
+    "title": "LoRa và LoRaWAN hoạt động thế nào",
+    "summary": "Bài thực hành phân biệt LoRa và LoRaWAN, giới thiệu thiết bị đầu cuối, gateway và cách gửi bản tin thử qua mạng.",
+    "keyPoints": [
+      "Phân biệt kỹ thuật truyền vô tuyến LoRa với giao thức mạng LoRaWAN.",
+      "Video giải thích vai trò của băng thông và ngân sách đường truyền.",
+      "Tác giả dùng gateway và một thiết bị đầu cuối để gửi bản tin đầu tiên tới The Things Network."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@home_assistant",
+    "url": "https://www.youtube.com/watch?v=TgGiUchnmDw",
+    "publishedOn": "2026-09-02",
+    "title": "Home Assistant 2026.9 · Modbus, bản đồ và ESPHome",
+    "summary": "Buổi giới thiệu bản 2026.9 có các phần về tích hợp Modbus, bản đồ OpenStreetMap và bộ thực hành cảm biến ESPHome.",
+    "keyPoints": [
+      "Phần về Modbus đi qua thay đổi cho thiết bị dùng giao thức công nghiệp này.",
+      "Video giới thiệu việc chuyển bản đồ sang OpenStreetMap và trình diễn bộ ESPHome Starter Kit.",
+      "Các thay đổi khác được đề cập gồm thử nghiệm bộ chuyển văn bản thành giọng nói và điều hướng biểu đồ bằng bàn phím."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@home_assistant",
+    "url": "https://www.youtube.com/watch?v=ZgoaoTpIhm8",
+    "publishedOn": "2024-12-19",
+    "title": "Giới thiệu Home Assistant Voice Preview Edition",
+    "summary": "Đội Home Assistant giới thiệu thiết bị điều khiển giọng nói dành cho hệ sinh thái của họ, kèm tài nguyên để tùy biến vỏ.",
+    "keyPoints": [
+      "Voice Preview Edition là thiết bị phần cứng dành cho tính năng giọng nói trong Home Assistant.",
+      "Video là buổi công bố thiết bị và dẫn tới bài giới thiệu của dự án.",
+      "Phần tài nguyên có mẫu vỏ và phụ kiện có thể in 3D để tùy biến cách lắp thiết bị."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@n8n-io",
+    "url": "https://www.youtube.com/watch?v=1MwSoB0gnM4",
+    "publishedOn": "2023-01-31",
+    "title": "n8n Quickstart · làm workflow đầu tiên",
+    "summary": "Bài thực hành ngắn đi từ trigger, lấy dữ liệu và kết nối Slack đến ánh xạ trường và lọc có điều kiện. Video dùng giao diện n8n đời cũ.",
+    "keyPoints": [
+      "Trigger khởi động workflow. Các node phía sau nhận và xử lý dữ liệu.",
+      "Ví dụ cài node Slack và lấy trường dữ liệu từ bước trước.",
+      "Cuối bài có kích hoạt workflow và thêm điều kiện lọc."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@n8n-io",
+    "url": "https://www.youtube.com/watch?v=rCPXBkeBWCQ",
+    "title": "Hiểu cách các node hoạt động trong n8n",
+    "summary": "Bài thứ ba trong khóa cơ bản của n8n giải thích vai trò của node, thành phần dùng để nối các bước trong một workflow.",
+    "keyPoints": [
+      "Node đại diện cho một bước trong quy trình n8n, chẳng hạn bắt đầu luồng hoặc xử lý dữ liệu.",
+      "Hiểu đầu vào và đầu ra của từng node giúp theo dõi dữ liệu qua nhiều bước."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@ycombinator",
+    "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
+    "publishedOn": "2022-12-01",
+    "title": "Cách phỏng vấn người dùng · Startup School",
+    "summary": "Gustaf Alströmer giải thích cách nói chuyện với khách hàng hiện tại hoặc tiềm năng và đọc phản hồi trước khi làm sản phẩm.",
+    "keyPoints": [
+      "Hỏi về một tình huống vừa xảy ra để hiểu họ đang giải quyết vấn đề thế nào.",
+      "Tránh dùng buổi phỏng vấn để chào bán ý tưởng hoặc dẫn người nghe tới câu trả lời mong muốn.",
+      "Dùng buổi thử nguyên mẫu để quan sát thao tác và điểm người dùng gặp khó khăn."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@ycombinator",
+    "url": "https://www.youtube.com/watch?v=QRZ_l7cVzzU",
+    "publishedOn": "2023-03-15",
+    "title": "Cách xây MVP · Startup School",
+    "summary": "Michael Seibel dùng ví dụ từ các công ty YC để giải thích cách chọn tính năng tối thiểu, dựng bản thử và đưa cho nhóm khách hàng đầu tiên.",
+    "keyPoints": [
+      "Chọn tập tính năng nhỏ đủ để thử vấn đề cốt lõi của khách hàng.",
+      "Dùng nguyên mẫu hoặc bản demo để thử với người dùng trước khi mở rộng phạm vi.",
+      "Chuẩn bị cách trình bày để khách đầu tiên hiểu giá trị của bản thử."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@Prusa3D",
+    "url": "https://www.youtube.com/watch?v=0HwlW8bv13U",
+    "publishedOn": "2023-07-04",
+    "title": "Giá đỡ dạng cây trong PrusaSlicer",
+    "summary": "Hai người đóng góp mã nguồn mở trình bày cách tính năng Organic Supports trong PrusaSlicer phát triển từ những thuật toán giá đỡ dạng cây.",
+    "keyPoints": [
+      "Giá đỡ dạng cây là một cách đỡ các phần nhô khi in mô hình.",
+      "Bài nói giải thích liên hệ giữa cách làm trong PrusaSlicer và các triển khai trước đó.",
+      "Các tác giả chia sẻ cách đóng góp cộng đồng đi vào một công cụ cắt lớp được sử dụng rộng rãi."
+    ]
+  },
+  {
+    "channelUrl": "https://www.youtube.com/@Prusa3D",
+    "url": "https://www.youtube.com/watch?v=HCuKPz0CM6s",
+    "publishedOn": "2026-08-13",
+    "title": "Các thay đổi trên Prusa XL+, CORE One+ và CORE One L+",
+    "summary": "Prusa trình bày các thay đổi trên ba dòng máy in, tập trung vào lúc bắt đầu in, bề mặt bản in và thao tác vận hành.",
+    "keyPoints": [
+      "Bản cập nhật áp dụng cho XL+, CORE One+ thế hệ hai và CORE One L+.",
+      "Prusa nhấn mạnh việc khởi động bản in sạch hơn và cải thiện bề mặt.",
+      "Video nhìn từ phía nhà sản xuất và mô tả những cải tiến dựa trên phản hồi người dùng."
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://v2ex.com/go/business",
+    "kind": "COMMUNITY",
+    "market": "CHINA",
+    "title": "V2EX · Mô hình kinh doanh",
+    "publisher": "V2EX",
+    "theme": "BUSINESS",
+    "topics": ["Cách thu tiền", "Nhu cầu thị trường", "Ngách dịch vụ"],
+    "summary": "Chuyên mục hỏi đáp về mô hình kinh doanh, từ dịch vụ địa phương đến sản phẩm số. Thành viên trao đổi về khách hàng, chi phí và khả năng thu tiền.",
+    "takeaway": "Đọc phần phản biện và tìm các trường hợp đã thử với khách thật. Những con số do thành viên chia sẻ cần đối chiếu riêng."
+  },
+  {
+    "url": "https://v2ex.com/go/starter",
+    "kind": "COMMUNITY",
+    "market": "CHINA",
+    "title": "V2EX · Khởi nghiệp độc lập",
+    "publisher": "V2EX",
+    "theme": "BUSINESS",
+    "topics": ["Khởi đầu sản phẩm", "Tìm người cộng tác", "Micro-SaaS"],
+    "summary": "Nơi nhà phát triển tìm người cộng tác và hỏi kinh nghiệm ra mắt. Có thảo luận về nhóm nhỏ, người dùng đầu tiên và tỷ lệ chuyển đổi sang trả phí.",
+    "takeaway": "Khi đọc một ca ra mắt, ghi quy mô nhóm, kênh tìm người dùng và kết quả trong cùng khoảng thời gian để dễ so sánh."
+  },
+  {
+    "url": "https://v2ex.com/go/create",
+    "kind": "COMMUNITY",
+    "market": "CHINA",
+    "title": "V2EX · Chia sẻ sản phẩm",
+    "publisher": "V2EX",
+    "theme": "TOOLS",
+    "topics": ["Sản phẩm mới", "Phản hồi người dùng", "Ứng dụng độc lập"],
+    "summary": "Khu giới thiệu sản phẩm của nhà phát triển độc lập, thường có bản dùng thử, phản hồi kỹ thuật hoặc đề xuất tính năng từ người đọc.",
+    "takeaway": "Theo dõi những yêu cầu tính năng lặp lại ở nhiều sản phẩm. Đó là điểm bắt đầu để phỏng vấn khách hàng tiềm năng."
+  },
+  {
+    "url": "https://w2solo.com/",
+    "kind": "COMMUNITY",
+    "market": "CHINA",
+    "title": "w2solo · Nhà phát triển độc lập",
+    "publisher": "w2solo",
+    "theme": "BUSINESS",
+    "topics": ["Khách hàng đầu tiên", "Định giá", "Bài học ra mắt"],
+    "summary": "Cộng đồng nhà phát triển độc lập có mục giới thiệu sản phẩm, bài chia sẻ kinh nghiệm và thảo luận về cách tìm khách. Có cả những dự án ra mắt nhưng chưa tìm được người dùng.",
+    "takeaway": "So sánh cách bán một lần, thuê bao và dịch vụ triển khai. Để ý tác giả có nói rõ tệp khách và kênh tìm khách hay không.",
+    "startHere": { "label": "Đọc bài về đơn hàng đầu tiên của một nhà phát triển", "url": "https://w2solo.com/topics/7712" }
+  },
+  {
+    "url": "https://meta.appinn.net/",
+    "kind": "COMMUNITY",
+    "market": "CHINA",
+    "title": "Appinn · Diễn đàn khám phá ứng dụng",
+    "publisher": "Diễn đàn Appinn",
+    "theme": "TOOLS",
+    "topics": ["Ứng dụng ngách", "Công cụ thay thế", "Phản hồi người dùng"],
+    "summary": "Thành viên giới thiệu và so sánh ứng dụng, tiện ích và công cụ AI. Phần trao đổi cho thấy tính năng nào khiến người dùng tìm lựa chọn khác.",
+    "takeaway": "Xem những lần người dùng hỏi công cụ thay thế vì giá, quyền riêng tư hoặc quy trình khó dùng. Dùng các câu hỏi đó để xác định vấn đề cụ thể."
+  }
+]

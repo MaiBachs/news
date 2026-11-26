@@ -1,0 +1,10 @@
+.git
+.env
+.env.*
+.tooling
+.scannerwork
+.idea
+.vscode
+node_modules
+dist
+data

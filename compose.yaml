@@ -1,0 +1,22 @@
+services:
+  radar:
+    build: .
+    ports:
+      - "127.0.0.1:${RADAR_PORT:-8080}:8080"
+    environment:
+      HOST: 0.0.0.0
+      RADAR_PORT: 8080
+      RADAR_DB_PATH: /app/data/radar.sqlite
+      RADAR_AI_PROFILE: ${RADAR_AI_PROFILE:-claude}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      YOUTUBE_API_KEY: ${YOUTUBE_API_KEY:-}
+      RADAR_CODEX_CRAWL_MODEL: ${RADAR_CODEX_CRAWL_MODEL:-}
+      RADAR_CODEX_ANALYSIS_MODEL: ${RADAR_CODEX_ANALYSIS_MODEL:-}
+      RADAR_CLAUDE_CRAWL_MODEL: ${RADAR_CLAUDE_CRAWL_MODEL:-}
+      RADAR_CLAUDE_ANALYSIS_MODEL: ${RADAR_CLAUDE_ANALYSIS_MODEL:-}
+    volumes:
+      - radar-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  radar-data:
